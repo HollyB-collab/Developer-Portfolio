@@ -15,8 +15,8 @@ const LatestProjects = (props: {portfolioData: portfolioType}) => {
               {project[0].imageUrl &&
               <>
               <div className="featured-image has-ribbon">
-                <a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/launch-bootstrap-4-template-for-saas-businesses/" target="_blank">
-                  <img className="img-fluid project-image rounded shadow-sm" src="assets/images/projects/project-featured.jpg" alt="project name" />
+                <a href={project[0].imageUrl} target="_blank">
+                  <img className="img-fluid project-image rounded shadow-sm" src={project[0].imageUrl} alt="project name" />
                 </a>
                 <div className="ribbon">
                   <div className="text">New</div>

@@ -3,7 +3,8 @@ export type portfolioType = {
   education: educationType[],
   skills: skillsType[],
   projects: projectsType[],
-  contact: contactType
+  contact: contactType,
+  languages: languagesType[]
 };
 
 export type experienceType = {
@@ -47,4 +48,10 @@ export type contactType = {
   "twitterlink"?: string,
   "stackoverflowLink"?: string,
   "codepenLink"?: string
+};
+
+export type languagesType = {
+  "name": string,
+  "level": string,
+  "stars": number
 };
