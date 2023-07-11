@@ -58,7 +58,21 @@ export const portfolioData = {
       primary: true,
       description: "This is a cool e-commerce site check it out!",
       githubLink: "https://github.com/Extra-Terrestrial-E-commerce/E-commerce-Site",
-      imageUrl: "",
+      imageUrl: "https://source.unsplash.com/SYTO3xs06fU",
+    },
+    {
+      title: "Developer Portfolio",
+      primary: false,
+      description: "A plug and play developer portfolio template that uses Typescript, React, and JavaScript.",
+      githubLink: "https://github.com/HollyB-collab/Developer-Portfolio",
+      imageUrl: "https://source.unsplash.com/GKF6WyVPdE4",
+    },
+    {
+      title: "Product System Design",
+      primary: false,
+      description: "Database designed for an e commerce website",
+      githubLink: "https://github.com/rfp2305-cyclops/Product-API",
+      imageUrl: "https://source.unsplash.com/mcSDtbWXUZU",
     },
   ],
   contact: {
@@ -72,5 +86,18 @@ export const portfolioData = {
     twitterlink: "string",
     stackoverflowLink: "string",
     codepenLink: "string"
-  }
+  },
+  languages : [
+    {
+      name: "English",
+      level: "Native",
+      stars: 5
+    },
+    {
+      name: "Spanish",
+      level: "Abismal",
+      stars: 1
+    }
+  ]
+
 };
