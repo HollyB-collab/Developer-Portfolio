@@ -7,6 +7,7 @@ import Contact from './Contact';
 import Skills from './Skills';
 import Education from './Education';
 import Footer from './Footer';
+import Languages from "./Languages";
 import { portfolioData } from "../../data/data";
 
 const App = () => {
@@ -55,6 +56,20 @@ const App = () => {
             </div>
           </div>
         </aside>
+        <aside className="languages aside section">
+                    <div className="section-inner shadow-sm rounded">
+                        <h2 className="heading">Languages</h2>
+                        <div className="content">
+                            <ul className="list-unstyled">
+                              {portfolioData.languages.map((language) => {
+                                return (
+                                  <Languages language={language}/>
+                                )
+                              })}
+                            </ul>
+                        </div>
+                    </div>
+                </aside>
       </div>
 
     </div>

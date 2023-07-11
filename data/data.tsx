@@ -72,5 +72,18 @@ export const portfolioData = {
     twitterlink: "string",
     stackoverflowLink: "string",
     codepenLink: "string"
-  }
+  },
+
+  languages: [
+    {
+      name: "English",
+      level: "Native",
+      stars: 5
+    },
+    {
+      name: "Spanish",
+      level: "Abismal",
+      stars: 1
+    },
+  ]
 };
