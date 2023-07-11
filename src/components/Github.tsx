@@ -11,17 +11,10 @@ const Github = () => {
             <div className="calendar">
               Loading the data just for you.
             </div>
-
-            {/* {
-              GitHubCalendar(".calendar", "HollyB-collab");} */}
-
-    {/* // or enable responsive functionality:
-    GitHubCalendar(".calendar", "your-username", { responsive: true }); */}
-
           </div>
 
           <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.</p>
-
+          <div id="feed"></div>
           <div id="ghfeed" className="ghfeed">
           </div>
 
