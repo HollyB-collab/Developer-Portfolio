@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "magic": "npx webpack --watch",
+    "serve": "npx live-server dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -19,6 +20,7 @@
     "bootstrap": "^5.3.0",
     "github-activity-feed": "^0.3.0",
     "github-calendar": "^2.3.2",
+    "live-server": "^1.2.2",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

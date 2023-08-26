@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useState } from "react";
 import Header from './Header';
 import Experience from './Experience';
 import LatestProjects from './LatestProjects';
@@ -11,10 +12,11 @@ import Languages from './Languages';
 import { portfolioData } from "../../data/data";
 
 const App = () => {
+  const [darkMode, setDarkMode] = useState(false);
 
   return (
     <div>
-<Header contact={portfolioData.contact}/>
+<Header setDarkmode={setDarkMode} darkmode={darkMode} contact={portfolioData.contact}/>
   <div className="container sections-wrapper py-5">
     <div className="row">
       <div className="primary col-lg-8 col-12">

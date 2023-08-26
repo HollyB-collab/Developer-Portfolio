@@ -13,10 +13,10 @@ const Github = () => {
             </div>
           </div>
 
-          <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.</p>
+          {/* <p>You can also embed your GitHub activities using Casey Scarborough's <a href="https://github.com/caseyscarborough/github-activity" target="_blank">GitHub Activity Stream</a> widget.</p>
           <div id="feed"></div>
           <div id="ghfeed" className="ghfeed">
-          </div>
+          </div> */}
 
         </div>
       </section>
