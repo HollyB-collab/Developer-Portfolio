@@ -51,6 +51,16 @@ export const portfolioData = {
       level: "Expert",
       progressbar: 97
     },
+    {
+      name: "TypeScript <3",
+      level: "Intermediate",
+      progressbar: 65
+    },
+    {
+      name: "SQL",
+      level: "Intermediate",
+      progressbar: 65
+    },
   ],
   projects: [
     {
